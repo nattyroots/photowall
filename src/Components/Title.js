@@ -1,8 +1,9 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-function Title(props){
-        return (<h1>{props.caption}</h1>)
+class Title extends Component {
+    render(){
+        return (<h1>{this.props.caption}</h1>)
+    }
 }
-
 
 export default Title
